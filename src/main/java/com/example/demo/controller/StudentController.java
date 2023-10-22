@@ -8,6 +8,6 @@ public class StudentController {
 
 	@GetMapping("/message")
 	public String getMessage() {
-		return "Congratulations you successfully deployed into K8";
+		return "Congratulations you successfully deployed into K8..";
 	}
 }
