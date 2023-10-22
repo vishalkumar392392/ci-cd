@@ -10,4 +10,9 @@ public class StudentController {
 	public String getMessage() {
 		return "Congratulations you successfully deployed into K8..";
 	}
+	
+	@GetMapping("/test")
+	public String test() {
+		return "test";
+	}
 }
