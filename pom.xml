@@ -14,7 +14,7 @@
 	<name>kubernetes-spring-boot</name>
 	<description>trying learn to deploy from github to aws using jenkins config</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<!--<dependency>
