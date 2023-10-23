@@ -11,8 +11,8 @@ public class StudentController {
 		return "Congratulations you successfully deployed into K8..";
 	}
 	
-	@GetMapping("/test/v1")
+	@GetMapping("/test/v2")
 	public String test() {
-		return "test v1";
+		return "test v2";
 	}
 }
