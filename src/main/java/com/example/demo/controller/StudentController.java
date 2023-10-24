@@ -25,4 +25,9 @@ public class StudentController {
 	public String hello() {
 		return "Hello world....";
 	}
+	
+	@GetMapping("/congrats")
+	public String congrats() {
+		return "Congrations you completed Devops Project 1 - CI/CD with Git Jenkins Ansible Kubernetes course..";
+	}
 }
