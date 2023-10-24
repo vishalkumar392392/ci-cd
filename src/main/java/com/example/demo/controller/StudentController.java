@@ -15,4 +15,9 @@ public class StudentController {
 	public String test() {
 		return "test v3";
 	}
+	
+	@GetMapping("/greet")
+	public String greet() {
+		return "Hurry, You learned alot in few days...";
+	}
 }
