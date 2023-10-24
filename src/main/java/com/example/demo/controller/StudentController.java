@@ -20,4 +20,9 @@ public class StudentController {
 	public String greet() {
 		return "Hurry, You learned alot in few days...";
 	}
+	
+	@GetMapping("/hello")
+	public String hello() {
+		return "Hello world....";
+	}
 }
